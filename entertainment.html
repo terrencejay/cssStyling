@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <header id="heading">
+        <h2>Mountain Gallery</h2>
+    </header>
+    <div class="gallery">
+        <a target="_blank" href="aerial-beautiful-shot-seashore-with-hills-background-sunset (1).jpg">
+            <img src="aerial-beautiful-shot-seashore-with-hills-background-sunset (1).jpg" alt="seashore with hills" width="600" height="400">
+        </a>
+        <div class="desc">A beautiful picture of mountains next to a beach and a ocean</div>
+    </div>
+    <div class="gallery">
+        <a target = "_blank" href="beautiful-shot-snowy-mountain-sunset.jpg">
+            <img src="beautiful-shot-snowy-mountain-sunset.jpg" alt="a snowy mountain at sunset" width="600" height="400">
+        </a>
+        <div class="desc">A big mountain with snow at its peak</div>
+    </div>
+    <div class="gallery">
+        <a target = "_blank" href="fuji-mountain-kawaguchiko-lake-sunset-autumn-seasons-fuji-mountain-yamanachi-japan.jpg">
+            <img src="fuji-mountain-kawaguchiko-lake-sunset-autumn-seasons-fuji-mountain-yamanachi-japan.jpg" alt="a snowy mountain at sunset" width="600" height="400">
+        </a>
+        <div class="desc">A big mountain with snow at its peak</div>
+    </div>
+    <div class="gallery">
+        <a target = "_blank" href="fuji-mountain-with-milky-way-night.jpg">
+            <img src="fuji-mountain-with-milky-way-night.jpg" alt="Fuji mountain at night below the stars" width="600" height="400">
+        </a>
+        <div class="desc">Fuji mountain at night below the stars</div>
+    </div>
+    <div class="gallery">
+        <a target = "_blank" href="vestrahorn-mountains-sunset-stokksnes-iceland.jpg">
+            <img src="vestrahorn-mountains-sunset-stokksnes-iceland.jpg" alt="vestrahorn mountains at sunset" width="600" height="400">
+        </a>
+        <div class="desc">Vestahorn mountain during a lovely sunset</div>
+    </div>
+    <br>
+    <br>
+    <section>
+    <header id="CTA">
+        <h3>One of my favorite songs</h3>
+    </header>
+    <div class="button">
+        <a target="_blank" href="https://open.spotify.com/track/1y1uRNWHSiTOj5psGI2cpL"><button type="button">Click here for some tunes!</button></a>
+    </div>
+      
+    <div class="feedback-form-container">
+        <h2>Feedback Form</h2>
+        <form id="feedback-form">
+            <label for="comments">Any comments for the creator:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <label for="rating">How would you rate this program?:</label>
+            <select id="rating" name="rating" required>
+                <option value="">Select a rating</option>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Fair</option>
+                <option value="3">3 - Good</option>
+                <option value="4">4 - Very Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+
+            <label for="suggestions">Suggestions:</label>
+            <textarea id="suggestions" name="suggestions" rows="4"></textarea>
+
+            <button type="submit" class="submit-button">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
